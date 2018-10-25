@@ -14,21 +14,21 @@ class App extends Component {
   }
 
   render() {
-    const { isPending, robots, error, searchField, onSearchChange } = this.props;
+    const { isPending, robots, searchField, onSearchChange } = this.props;
     const filteredRobots = robots.filter(robot =>{
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
 
-    return isPending ?
-      <h1>Loading</h1> : 
-      (
+    return (
         <div className="tc">
           <Header />
           <SearchBox searchChange={onSearchChange} />
           <Scroll>
+          {isPending ? <h1>Loading</h1> : 
             <ErrorBoundary>
               <CardList robots={filteredRobots} />
             </ErrorBoundary>
+          }
           </Scroll>
         </div>
       )
