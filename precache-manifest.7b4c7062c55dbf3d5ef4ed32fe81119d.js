@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/robot-friends-pwa/static/js/runtime~main.004a5248.js"
   },
   {
-    "revision": "e716dfe6179aa8937a78",
-    "url": "/robot-friends-pwa/static/js/main.e716dfe6.chunk.js"
+    "revision": "772cadb84dd5b7b2df8c",
+    "url": "/robot-friends-pwa/static/js/main.772cadb8.chunk.js"
   },
   {
     "revision": "e68a26d54118307cdf4f",
     "url": "/robot-friends-pwa/static/js/1.e68a26d5.chunk.js"
   },
   {
-    "revision": "e716dfe6179aa8937a78",
-    "url": "/robot-friends-pwa/static/css/main.aed2bbd4.chunk.css"
+    "revision": "772cadb84dd5b7b2df8c",
+    "url": "/robot-friends-pwa/static/css/main.4b8b8bef.chunk.css"
   },
   {
     "revision": "e68a26d54118307cdf4f",
     "url": "/robot-friends-pwa/static/css/1.7cb081bf.chunk.css"
   },
   {
-    "revision": "2b52c055b336708e22c7a0ccff22ffdc",
+    "revision": "bd93e9f9975f9a79f81696936485428f",
     "url": "/robot-friends-pwa/index.html"
   }
 ];
